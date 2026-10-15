@@ -1,5 +1,4 @@
 # EcoMarket — Taller Práctico #2: Sistema RAG
-Prototipo académico. **Todos los datos empresariales son ficticios** y no representan políticas reales.
 
 ## Arquitectura
 Python + LangChain + Sentence Transformers (`sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`) + ChromaDB + Ollama (`llama3.2:3b`).
