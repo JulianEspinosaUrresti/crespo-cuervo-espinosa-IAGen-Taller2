@@ -46,3 +46,22 @@ Los resultados se guardan en `resultados/comparacion_prompts.csv`. Se requieren 
 
 ## Actualización V3
 Consulta [mejoras y evaluación](docs/mejoras_v3.md). El prompt predeterminado ahora es `corregido`. Los resultados V2 se conservan sin alteración.
+
+## Resultados experimentales
+
+Se evaluó el sistema RAG de EcoMarket mediante 12 casos de prueba y dos variantes del prompt.
+
+| Indicador | Mejorado | Corregido |
+|---|---:|---:|
+| Respuestas correctas | 8 | 10 |
+| Respuestas parciales | 4 | 1 |
+| Respuestas incorrectas | 0 | 1 |
+| Porcentaje de respuestas correctas | 66,7 % | 83,3 % |
+
+La versión corregida presentó una mejora de 16,7 puntos porcentuales en respuestas correctas, según la evaluación manual de los 12 casos.
+
+**Limitaciones identificadas:** se observó una referencia URL inventada y dificultades para comunicar el escalamiento humano ante productos dañados. Los resultados corresponden exclusivamente al conjunto de prueba utilizado y no garantizan el mismo rendimiento en producción.
+
+**Evidencia:** los archivos originales y evaluados de V2 y V3 están disponibles en la carpeta `resultados/`.
+
+**Conclusión:** el prototipo demuestra la integración funcional de LangChain, ChromaDB, embeddings multilingües y Llama 3.2 para responder consultas de EcoMarket mediante recuperación de información contextual.
