@@ -1,0 +1,30 @@
+[
+  {
+    "id": "PROD-01",
+    "nombre": "Botella reutilizable de acero",
+    "categoria": "hogar",
+    "stock": 18,
+    "descripcion": "Botella de 750 ml"
+  },
+  {
+    "id": "PROD-02",
+    "nombre": "Jabón sólido natural",
+    "categoria": "higiene",
+    "stock": 25,
+    "descripcion": "Jabón corporal en empaque compostable"
+  },
+  {
+    "id": "PROD-03",
+    "nombre": "Canasta de frutas orgánicas",
+    "categoria": "perecedero",
+    "stock": 6,
+    "descripcion": "Frutas frescas de temporada"
+  },
+  {
+    "id": "PROD-04",
+    "nombre": "Bolsa de tela reutilizable",
+    "categoria": "accesorios",
+    "stock": 40,
+    "descripcion": "Bolsa de algodón reutilizable"
+  }
+]

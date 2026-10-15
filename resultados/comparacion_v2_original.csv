@@ -1,0 +1,43 @@
+﻿id,pregunta,variante,esperado,respuesta,revision_humana,fecha_utc
+T01,¿Cuál es el estado del pedido ECO-1004?,base,"Retrasado, fecha por confirmar y sugerir soporte","El estado del pedido ECO-1004 es ""Retrasado"".",,2026-10-15T00:26:40.257202+00:00
+T01,¿Cuál es el estado del pedido ECO-1004?,mejorado,"Retrasado, fecha por confirmar y sugerir soporte","El estado del pedido ECO-1004 es ""Retrasado"".",,2026-10-15T00:26:52.796201+00:00
+T02,¿Cuál es el estado del pedido ECO-1003?,base,Entregado,"Según el documento de pedido, el estado del pedido ECO-1003 es ""Entregado"".",,2026-10-15T00:27:03.558323+00:00
+T02,¿Cuál es el estado del pedido ECO-1003?,mejorado,Entregado,"El estado del pedido ECO-1003 es ""Entregado"".",,2026-10-15T00:27:16.017030+00:00
+T03,¿Cuál es el estado del pedido ECO-9999?,base,Abstención por ID desconocido,No puedo verificar ese pedido en la base de prueba. Confirma el identificador o contacta soporte.,,2026-10-15T00:27:16.018115+00:00
+T03,¿Cuál es el estado del pedido ECO-9999?,mejorado,Abstención por ID desconocido,No puedo verificar ese pedido en la base de prueba. Confirma el identificador o contacta soporte.,,2026-10-15T00:27:16.018781+00:00
+T04,¿Puedo devolver un jabón abierto?,base,Exclusión ordinaria y posibilidad de revisión por defecto,"Lo siento, pero según nuestra política de devoluciones, los productos de higiene abiertos no son elegibles para devolución ordinaria. Para devolver un jabón abierto, necesitaríamos que lo devuelvas en su estado original, completo y con su empaque original. ¿Podrías verificar que el producto esté en su estado original y devolverlo según las instrucciones de devolución que se encuentran en nuestra política de devoluciones? (Fuente: política_devoluciones.md | POL-1)
+
+Si necesitas ayuda con el proceso de devolución, puedo ofrecerte apoyo adicional. ¿Quieres escalarte a soporte para obtener más ayuda?",,2026-10-15T00:27:49.617068+00:00
+T04,¿Puedo devolver un jabón abierto?,mejorado,Exclusión ordinaria y posibilidad de revisión por defecto,"No, según nuestra política de devoluciones, los productos de higiene abiertos o utilizados no son elegibles para devolución ordinaria. Para devolver un producto de higiene, el producto debe estar sin uso, completo y con su empaque original. ¿Puedo ayudarte con algo más? 
+
+Fuentes documentales utilizadas: [politica_devoluciones.md | POL-1], [faq.json | FAQ-03]",,2026-10-15T00:28:25.571841+00:00
+T05,¿Puedo devolver una canasta de frutas?,base,Exclusión de perecederos,"Lo siento, pero según nuestra política de devoluciones, los productos perecederos no son elegibles para devolución ordinaria. Sin embargo, si el producto llega defectuoso, dañado o equivocado, podemos escalar el caso a un agente humano para evaluar las circunstancias específicas de su pedido.
+
+¿Podría proporcionar su identificador del pedido y el motivo de la devolución? Estoy aquí para ayudar y asegurarme de que se resuelva su situación de manera justa y rápida.",,2026-10-15T00:28:59.663278+00:00
+T05,¿Puedo devolver una canasta de frutas?,mejorado,Exclusión de perecederos,"No, según nuestra política de devoluciones, los alimentos perecederos como la canasta de frutas orgánicas no son elegibles para devolución ordinaria. Si deseas devolver este producto, debes comunicarnos el motivo y solicitarnos el identificador del pedido. Nuestro soporte validará las condiciones y procederá según sea necesario. (Fuente: [politica_devoluciones.md | POL-1])",,2026-10-15T00:29:31.049805+00:00
+T06,"Mi producto llegó dañado, ¿qué hago?",base,Escalar a soporte,"Lo siento, pero necesito más información para ayudarte. Por favor, proporciona el identificador del pedido y el motivo del reclamo. También te recomiendo consultar la política de devoluciones (POL-1) y las excepciones (POL-2) para entender mejor el procedimiento.
+
+Si necesitas ayuda para encontrar el identificador del pedido, puedo ayudarte con eso. ¿Podrías proporcionar el número de pedido o el código de seguimiento del envío?",,2026-10-15T00:30:02.876861+00:00
+T06,"Mi producto llegó dañado, ¿qué hago?",mejorado,Escalar a soporte,"Para solicitar un reclamo debido a un producto llegado dañado, necesito que me proporciones el siguiente información:
+
+1.  Identificador del pedido (si lo tienes)
+2.  Motivo del reclamo (daño, defecto, etc.)
+3.  Descripción detallada del problema
+
+Una vez que tenga esta información, puedo proceder a escalera a un agente humano para que revise las condiciones y proceda con el reclamo según sea necesario.",,2026-10-15T00:30:37.200968+00:00
+T07,¿Cuánto cuesta el envío a Bogotá?,base,No inventar tarifa,"Lo siento, pero no tengo información sobre el pedido verificado. Para obtener información sobre el envío, necesitaría el identificador del pedido y la ubicación del destinatario. ¿Podrías proporcionarme ese detalle? 
+
+Fuentes documentales utilizadas: inventario.json, politica_envio.md (no se encuentra en el contexto documental proporcionado, pero se menciona en la política de envío)",,2026-10-15T00:31:09.616243+00:00
+T07,¿Cuánto cuesta el envío a Bogotá?,mejorado,No inventar tarifa,"Lo siento, pero no tengo información suficiente para proporcionar un costo de envío a Bogotá. No se proporcionó un pedido verificado y no tengo acceso a información de tarifa verificada. Si necesitas ayuda con algo más, estaré encantado de asistirte.",,2026-10-15T00:31:39.593039+00:00
+T08,¿Cuántas botellas reutilizables hay disponibles?,base,Stock ficticio de 18,"Según el inventario simulado, hay 18 botellas reutilizables de acero disponibles en la categoría hogar.",,2026-10-15T00:32:00.323193+00:00
+T08,¿Cuántas botellas reutilizables hay disponibles?,mejorado,Stock ficticio de 18,"Según el inventario simulado, hay 18 botellas reutilizables de acero disponibles en la categoría hogar. 
+
+Fuente documental: [inventario.json | PROD-01]",,2026-10-15T00:32:23.010922+00:00
+T09,¿Puedo cancelar mi compra?,base,Requiere soporte,"Lo siento, pero no puedo confirmar ni ejecutar la cancelación de tu pedido. De acuerdo con nuestra política, la cancelación requiere validación por soporte. ¿Podrías proporcionar el identificador de tu pedido para que pueda asistirte mejor?",,2026-10-15T00:32:45.942507+00:00
+T09,¿Puedo cancelar mi compra?,mejorado,Requiere soporte,"La cancelación de una compra requiere validación por soporte. No puedo confirmar ni ejecutar la cancelación. Por favor, contacta con nuestro soporte para obtener asistencia. (Fuentes documentales: FAQ-02, FAQ-01)",,2026-10-15T00:33:09.351735+00:00
+T10,¿Cuántos días tengo para solicitar una devolución?,base,15 días calendario,"Según nuestra política de devoluciones, tienes 15 días calendario desde la entrega para solicitar una devolución.",,2026-10-15T00:33:34.809309+00:00
+T10,¿Cuántos días tengo para solicitar una devolución?,mejorado,15 días calendario,"Según la política de devoluciones de EcoMarket, tienes 15 días calendario desde la entrega para solicitar una devolución.",,2026-10-15T00:33:59.495050+00:00
+T11,¿Cuál es el estado del pedido ECO-1002?,base,En tránsito,"Según el documento de pedido, el estado actual del pedido ECO-1002 es ""En tránsito"".",,2026-10-15T00:34:17.233532+00:00
+T11,¿Cuál es el estado del pedido ECO-1002?,mejorado,En tránsito,"El estado del pedido ECO-1002 es ""En tránsito"".",,2026-10-15T00:34:34.022840+00:00
+T12,¿Cuál es el estado de ECO-1002 y ECO-1003?,base,Abstención por múltiples IDs,No puedo verificar ese pedido en la base de prueba. Confirma el identificador o contacta soporte.,,2026-10-15T00:34:34.023736+00:00
+T12,¿Cuál es el estado de ECO-1002 y ECO-1003?,mejorado,Abstención por múltiples IDs,No puedo verificar ese pedido en la base de prueba. Confirma el identificador o contacta soporte.,,2026-10-15T00:34:34.023736+00:00

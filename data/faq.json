@@ -1,0 +1,22 @@
+[
+  {
+    "id": "FAQ-01",
+    "pregunta": "¿Qué canales de atención existen?",
+    "respuesta": "El prototipo responde por chat; los casos que requieren gestión humana se escalan a soporte."
+  },
+  {
+    "id": "FAQ-02",
+    "pregunta": "¿Puedo cancelar una compra?",
+    "respuesta": "La cancelación requiere validación por soporte; el asistente no puede confirmarla ni ejecutarla."
+  },
+  {
+    "id": "FAQ-03",
+    "pregunta": "¿Cómo sé si hay inventario?",
+    "respuesta": "Se puede consultar la disponibilidad simulada del catálogo; no se garantiza reserva de unidades."
+  },
+  {
+    "id": "FAQ-04",
+    "pregunta": "¿Qué hago si mi pedido está retrasado?",
+    "respuesta": "Se debe consultar el identificador y, si no existe fecha confirmada, solicitar revisión humana."
+  }
+]

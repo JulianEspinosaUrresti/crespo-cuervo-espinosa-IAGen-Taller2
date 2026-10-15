@@ -1,0 +1,98 @@
+[
+  {
+    "id": "T01",
+    "pregunta": "¿Cuál es el estado del pedido ECO-1004?",
+    "esperado": "Retrasado, fecha por confirmar y sugerir soporte",
+    "terminos": [
+      "retrasado",
+      "confirmar"
+    ]
+  },
+  {
+    "id": "T02",
+    "pregunta": "¿Cuál es el estado del pedido ECO-1003?",
+    "esperado": "Entregado",
+    "terminos": [
+      "entregado"
+    ]
+  },
+  {
+    "id": "T03",
+    "pregunta": "¿Cuál es el estado del pedido ECO-9999?",
+    "esperado": "Abstención por ID desconocido",
+    "terminos": [
+      "no puedo verificar"
+    ]
+  },
+  {
+    "id": "T04",
+    "pregunta": "¿Puedo devolver un jabón abierto?",
+    "esperado": "Exclusión ordinaria y posibilidad de revisión por defecto",
+    "terminos": [
+      "higiene",
+      "devolución"
+    ]
+  },
+  {
+    "id": "T05",
+    "pregunta": "¿Puedo devolver una canasta de frutas?",
+    "esperado": "Exclusión de perecederos",
+    "terminos": [
+      "perecedero"
+    ]
+  },
+  {
+    "id": "T06",
+    "pregunta": "Mi producto llegó dañado, ¿qué hago?",
+    "esperado": "Escalar a soporte",
+    "terminos": [
+      "soporte"
+    ]
+  },
+  {
+    "id": "T07",
+    "pregunta": "¿Cuánto cuesta el envío a Bogotá?",
+    "esperado": "No inventar tarifa",
+    "terminos": []
+  },
+  {
+    "id": "T08",
+    "pregunta": "¿Cuántas botellas reutilizables hay disponibles?",
+    "esperado": "Stock ficticio de 18",
+    "terminos": [
+      "18"
+    ]
+  },
+  {
+    "id": "T09",
+    "pregunta": "¿Puedo cancelar mi compra?",
+    "esperado": "Requiere soporte",
+    "terminos": [
+      "soporte"
+    ]
+  },
+  {
+    "id": "T10",
+    "pregunta": "¿Cuántos días tengo para solicitar una devolución?",
+    "esperado": "15 días calendario",
+    "terminos": [
+      "15"
+    ]
+  },
+  {
+    "id": "T11",
+    "pregunta": "¿Cuál es el estado del pedido ECO-1002?",
+    "esperado": "En tránsito",
+    "terminos": [
+      "tránsito"
+    ]
+  },
+  {
+    "id": "T12",
+    "pregunta": "¿Cuál es el estado de ECO-1002 y ECO-1003?",
+    "esperado": "Abstención por múltiples IDs",
+    "terminos": [
+      "no puedo verificar"
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ECO-1001",
+    "producto_id": "PROD-01",
+    "estado": "Preparando",
+    "entrega_estimada": "2026-10-18",
+    "observacion": "Dato simulado para evaluación"
+  },
+  {
+    "id": "ECO-1002",
+    "producto_id": "PROD-02",
+    "estado": "En tránsito",
+    "entrega_estimada": "2026-10-18",
+    "observacion": "Dato simulado para evaluación"
+  },
+  {
+    "id": "ECO-1003",
+    "producto_id": "PROD-03",
+    "estado": "Entregado",
+    "entrega_estimada": "2026-10-08",
+    "observacion": "Dato simulado para evaluación"
+  },
+  {
+    "id": "ECO-1004",
+    "producto_id": "PROD-04",
+    "estado": "Retrasado",
+    "entrega_estimada": null,
+    "observacion": "Fecha por confirmar; escalar a soporte"
+  },
+  {
+    "id": "ECO-1005",
+    "producto_id": "PROD-01",
+    "estado": "En tránsito",
+    "entrega_estimada": "2026-10-18",
+    "observacion": "Dato simulado para evaluación"
+  },
+  {
+    "id": "ECO-1006",
+    "producto_id": "PROD-02",
+    "estado": "Entregado",
+    "entrega_estimada": "2026-10-08",
+    "observacion": "Dato simulado para evaluación"
+  },
+  {
+    "id": "ECO-1007",
+    "producto_id": "PROD-03",
+    "estado": "Preparando",
+    "entrega_estimada": "2026-10-18",
+    "observacion": "Dato simulado para evaluación"
+  },
+  {
+    "id": "ECO-1008",
+    "producto_id": "PROD-04",
+    "estado": "En tránsito",
+    "entrega_estimada": "2026-10-18",
+    "observacion": "Dato simulado para evaluación"
+  },
+  {
+    "id": "ECO-1009",
+    "producto_id": "PROD-01",
+    "estado": "Entregado",
+    "entrega_estimada": "2026-10-08",
+    "observacion": "Dato simulado para evaluación"
+  },
+  {
+    "id": "ECO-1010",
+    "producto_id": "PROD-02",
+    "estado": "Retrasado",
+    "entrega_estimada": null,
+    "observacion": "Fecha por confirmar; escalar a soporte"
+  },
+  {
+    "id": "ECO-1011",
+    "producto_id": "PROD-03",
+    "estado": "En tránsito",
+    "entrega_estimada": "2026-10-18",
+    "observacion": "Dato simulado para evaluación"
+  },
+  {
+    "id": "ECO-1012",
+    "producto_id": "PROD-04",
+    "estado": "Entregado",
+    "entrega_estimada": "2026-10-08",
+    "observacion": "Dato simulado para evaluación"
+  }
+]
