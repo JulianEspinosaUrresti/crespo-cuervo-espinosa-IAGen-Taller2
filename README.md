@@ -1,6 +1,6 @@
 # EcoMarket — Taller Práctico #2: Sistema RAG
 
-# DAVID CRESPO - JHON JAIRO CUERVO - JULIAN ESPINOSA
+## DAVID CRESPO - JHON JAIRO CUERVO - JULIAN ESPINOSA
 
 ## Arquitectura
 Python + LangChain + Sentence Transformers (`sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`) + ChromaDB + Ollama (`llama3.2:3b`).
