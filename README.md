@@ -30,7 +30,6 @@ Para reindexar después de editar documentos: `python -m src.rag_ejemplo --index
 - [Fase 1: componentes](docs/fase1.md)
 - [Fase 2: documentos, chunking e indexación](docs/fase2.md)
 - [Fase 3: integración, pruebas y limitaciones](docs/fase3.md)
-- [Autoevaluación de rúbrica](docs/rubrica.md)
 
 ## Seguridad y alcance
 No es una plataforma de producción. No hay autenticación, integración con ERP, actualización automática, observabilidad ni control de acceso por cliente. **No cargar datos personales reales.** La búsqueda vectorial no sustituye verificaciones transaccionales; los pedidos se consultan por ID exacto sobre un JSON ficticio. Las respuestas no ejecutan reembolsos.
